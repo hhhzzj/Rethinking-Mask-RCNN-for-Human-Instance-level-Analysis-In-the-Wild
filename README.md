@@ -2,6 +2,8 @@ We revisit Mask-RCNN and propose a novel Cascaded Mask-RCNN for human instance-l
 
 Our work is based on [DensePose](https://github.com/facebookresearch/DensePose).
 
+We modify part code of DensePose in ```detectron``` and ```configs```.
+
 ![fig](https://github.com/hhhzzj/Cascaded-Mask-RCNN/blob/master/result.png)
 
 
