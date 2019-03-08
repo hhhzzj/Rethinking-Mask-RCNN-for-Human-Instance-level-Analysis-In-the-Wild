@@ -33,9 +33,6 @@ by 10.7% in UV AP and 9.2% average in UV
 AR. Codes and models are publicly available at
 https://github.com/hhhzzj/Cascaded-Mask-RCNN.
 
-
-We modify part code of DensePose in ```detectron``` and ```configs```.
-
 ![fig](https://github.com/hhhzzj/Cascaded-Mask-RCNN/blob/master/result.png)
 
 Figure 1: Our Cascaded Mask-RCNN prediction results. It aims to estimate dense correspondences from a 2D image in the wild to a 3D
