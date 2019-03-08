@@ -1,12 +1,46 @@
-Human pose analysis
+Rethinking Mask-RCNN for Human Instance-level Analysis In-the-Wild
 -------
-We revisit Mask-RCNN and propose a novel Cascaded Mask-RCNN for human instance-level analysis in-the-wild.
+Mask-RCNN is a flexible and powerful tool by explicitly
+extending the Faster-RCNN with RoIAlign
+to produce object bounding-boxes and their corresponding
+instance-level object segmentations. Despite
+of its success, a severe problem faced by
+Mask-RCNN is that the generated bounding-box
+often contains multi-human instances in the presence
+of partially occlusions, overlapping and scales
+of variations. This incurs considerable performance
+drop of Mask-RCNN. Also, Mask-RCNN
+cannot directly handle (2D)image-to-(3D)surface
+estimation. To address these issues, in this paper,
+we revisit Mask-RCNN and propose a novel
+Cascaded Mask-RCNN for human instance-level
+analysis in-the-wild. It enables the estimation
+of the 2D image to a human body 3D surface
+(image-to-surface) based representations (i.e.,
+Index-to-Patch (I), and UV coordinates) and also
+elegantly handles multi-instance in one bounding
+box problem.Specifically, we design a semanticto-
+instance branch by involving intermediate supervision
+to effectively segment multi-instances in
+one bounding box, and we utilize an IUV-RCNN
+branch to simultaneously predict 3D surface corresponding
+representations. Extensive experiments
+on the large-scale and challenging dataset (i.e.,
+DensePose-COCO) demonstrate the effectiveness
+of our proposed method. For DensePose task, our
+method significantly surpasses the state-of-the-art
+by 10.7% in UV AP and 9.2% average in UV
+AR. Codes and models are publicly available at
+https://github.com/hhhzzj/Cascaded-Mask-RCNN.
 
-Our work is based on [DensePose](https://github.com/facebookresearch/DensePose).
 
 We modify part code of DensePose in ```detectron``` and ```configs```.
 
 ![fig](https://github.com/hhhzzj/Cascaded-Mask-RCNN/blob/master/result.png)
+
+Figure 1: Our Cascaded Mask-RCNN prediction results. It aims to estimate dense correspondences from a 2D image in the wild to a 3D
+surface-based presentations (i.e., Index-to-Patch, and specific U and V coordinates) of a human body. Each example is arranged from left to
+right with the following order: an input image and its corresponding 3D Index-to Patch, U coordinates and V coordinates.
 
 
 Training a model
