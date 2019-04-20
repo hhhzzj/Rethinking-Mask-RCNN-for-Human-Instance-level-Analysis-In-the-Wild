@@ -65,4 +65,5 @@ Qualitative Results
 -------
 Compare with Mask RCNN in terms of instance segmentation
 ![fig](https://github.com/hhhzzj/Rethinking-Mask-RCNN-for-Human-Instance-level-Analysis-In-the-Wild/blob/master/compare.png)
+
 Mask RCNN (in the left) and our result (in the right)
