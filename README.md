@@ -61,4 +61,6 @@ python2 tools/test_net.py \
     TEST.WEIGHTS /the/dir/of/your/trained/model \
     NUM_GPUS 1
 ```
+Campare with Mask RCNN
+-------
 
