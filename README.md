@@ -63,5 +63,8 @@ python2 tools/test_net.py \
 ```
 Qualitative Results
 -------
+
 A quantitative comparison with Mask RCNN in terms of instance segmentation. Mask RCNN (in the left) VS. our result (in the right). We can observe that our proposed method can outperform Mask RCNN for instance segmentation in-the-wild, e.g., multiple persons in varied sizes (the second and fifth examples), occlusion (the first four examples), and complex background (the fourth and sixth examples). Especially, a people with a giraffe mask is also segmented by our method (the second row).
+
+
 ![fig](./MASKcomparsion.png)
