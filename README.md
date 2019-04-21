@@ -64,6 +64,6 @@ python2 tools/test_net.py \
 Qualitative Results
 -------
 Compare with Mask RCNN in terms of instance segmentation.
-![fig](./MASKcomparison.png)
+![fig](./MASKcomparsion.png)
 
 Mask RCNN (in the left) and our result (in the right).
