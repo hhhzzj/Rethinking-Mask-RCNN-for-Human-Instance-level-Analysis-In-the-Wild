@@ -63,7 +63,5 @@ python2 tools/test_net.py \
 ```
 Qualitative Results
 -------
-Compare with Mask RCNN in terms of instance segmentation.
+Compare with Mask RCNN in terms of instance segmentation. Mask RCNN (in the left) and our result (in the right). Especially, a people with a giraffe mask is also segmented.
 ![fig](./MASKcomparsion.png)
-
-Mask RCNN (in the left) and our result (in the right).
