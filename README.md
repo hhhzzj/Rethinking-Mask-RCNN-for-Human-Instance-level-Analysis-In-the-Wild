@@ -32,8 +32,7 @@ DensePose-COCO) demonstrate the effectiveness
 of our proposed method. For DensePose task, our
 method significantly surpasses the state-of-the-art
 by 10.7% in UV AP and 9.2% average in UV
-AR. Codes and models are publicly available at
-https://github.com/hhhzzj/Cascaded-Mask-RCNN.
+AR. 
 
 ![fig](https://github.com/hhhzzj/Cascaded-Mask-RCNN/blob/master/result.png)
 
